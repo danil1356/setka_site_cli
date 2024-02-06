@@ -1,36 +1,4 @@
 <template>
-  <div class="appHeader">
-    <div><a-space direction="vertical">
-      <a-space warp>
-        <a-tooltip title="search">
-          <a-button type="primary" shape="circle" :icon="h(SearchOutlined)" />
-        </a-tooltip>
-        <a-button type="primary" shape="circle">A</a-button>
-        <a-button type="primary" :icon="h(SearchOutlined)">Search</a-button>
-        <a-tooltip title="search">
-          <a-button shape="circle" :icon="h(SearchOutlined)" />
-        </a-tooltip>
-        <a-button :icon="h(SearchOutlined)">Search</a-button>
-      </a-space>
-      <a-space warp>
-        <a-tooltip title="search">
-          <a-button shape="circle" :icon="h(SearchOutlined)" />
-        </a-tooltip>
-        <a-button :icon="h(SearchOutlined)">Search</a-button>
-        <a-tooltip title="search">
-          <a-button type="dashed" shape="circle" :icon="h(SearchOutlined)" />
-        </a-tooltip>
-        <a-button type="dashed" :icon="h(SearchOutlined)">Search</a-button>
-        <a-button :icon="h(SearchOutlined)" href="https://www.google.com" />
-      </a-space>
-    </a-space></div>
-    <div></div>
-  </div>
-
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
 </template>
 
