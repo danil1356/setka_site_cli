@@ -7,17 +7,11 @@ const routes = [
     name: 'loader',
     component: () => import('../views/Loader.vue')
   },
+
   {
     path: '/app',
     name: 'app',
     component: () => import('../App.vue'),
-    children:[
-      {
-        path: '',
-        name: 'appHeader',
-        component: () => import('../views/AppHeader'),
-      }
-    ]
   }
 ]
 
