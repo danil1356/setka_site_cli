@@ -9,6 +9,7 @@ import {createBootstrap} from 'bootstrap-vue-next'
 
 import Antd from "ant-design-vue";
 import "@ant-design/icons-vue"
+import 'ant-design-vue/dist/reset.css';
 
 createApp(App)
     .use(store)

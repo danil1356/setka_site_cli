@@ -10,7 +10,7 @@ export default {
 
   mounted() {
     this.$nextTick(async ()=>{
-      // await router.push({name: "app"});
+       await router.push({name: "home"});
     })
   }
 }
